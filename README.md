@@ -1,71 +1,64 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=20710480&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+# Task Manager React Application
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A modern React application built with Vite and styled with Tailwind CSS. This project demonstrates best practices for building responsive, component-based web applications with React.
 
-## Assignment Overview
+## Features
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+- Component architecture with reusable UI components
+- State management using React hooks (useState, useEffect, useContext)
+- Custom hooks for local storage persistence
+- API integration with loading and error states
+- Responsive design with Tailwind CSS
+- Dark mode support
+- React Router for navigation
+
+## Technology Stack
+
+- **React**: Frontend library for building user interfaces
+- **Vite**: Next-generation frontend tooling for faster development
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development
+- **React Router**: Declarative routing for React applications
+- **PostCSS**: Tool for transforming CSS with JavaScript plugins
 
 ## Getting Started
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
    npm install
    ```
-4. Start the development server:
-   ```
+3. Start the development server:
+   ```bash
    npm run dev
    ```
+4. Open your browser and navigate to `http://localhost:5173`
 
-## Files Included
+## Tailwind CSS Integration
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+This project uses Tailwind CSS for styling. The integration is done through:
 
-## Requirements
+1. CDN approach for development (via script tag in index.html)
+2. PostCSS configuration for production builds
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+## Build for Production
 
-## Project Structure
+To build the application for production:
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+```bash
+npm run build
 ```
 
-## Submission
+The build artifacts will be stored in the `dist/` directory.
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+URL: `http://taskmanagervicky.netlify.app/`
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+## License
 
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+MIT
